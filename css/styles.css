@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+
+
+
+/* section */
+.navbar{
+    background-color: #f118f8;
+    overflow: hidden;
+}
+.nav-item{
+    font-size: 1.3rem;
+    
+  
+}
+
+
+#title{
+    background-color:#f118f8;  
+     overflow: hidden; 
+    
+    
+
+
+}
+
+
+.titles1{
+    color: black;
+   
+  
+    margin-top: 12%;
+
+    padding-left: 150px;
+    width: 50%;
+    line-height: 2;
+    padding-right: 60px;
+    
+}
+.download{
+    margin: 5% 3% 8% 0;
+}
+#dwn{
+   
+    margin-top: 10px;
+    /* margin-left: 1%; */
+  
+}
+
+.t1{
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 20%;
+    padding-bottom: 10px;
+    
+}
+.matter{
+    color: black;
+  padding-top: 5%;
+    padding-right: 10%;
+    
+    line-height: 2;
+    text-align: left;
+    margin-top: 5%;
+  
+}
+.t2{
+    padding-top: 50px;
+    width: 80%;
+    padding-left: 20%;
+   
+}
+.bottom{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.title3{
+    color: black;
+    margin-top: 10%;
+    padding-left: 10%;
+    line-height: 2;
+    text-align: left;
+    margin-top: 5%;
+  
+}
+.t3{
+    width: 80%;
+    padding-left: 20%;
+    
+}
+.premium{
+    background-color: blue;
+    color: #fff;
+}
+.imgs{
+    display: none;
+}
+
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+#pricing-column{
+    padding: 3% 2%;
+}
+.pro{
+    background-color: lightgreen
+}
+#contact{
+   margin-left: 20;
+}
+@media  screen and (max-width:1200px) {
+    body{
+       
+       overflow-x: hidden;
+       
+    }
+    
+    #title{
+        overflow-x: hidden;
+    }
+   
+    body{
+        justify-content: center;
+        
+    }
+    .navbar{
+        overflow-x: hidden;
+    }
+          .titles1{
+              color: black;
+      
+            
+            padding-top: 15%;
+            
+            width: 100%;
+            padding-right: 50px;
+            padding-left: 40px;
+           }
+           .t1{
+               width: 80%;
+               padding-right: 80px;
+               
+              
+              
+           }
+           .title2{
+            padding-top: 15%;
+            padding-left: 30px;
+           }
+             
+           .title3{
+              
+               
+               padding-right: 50px;
+               padding-left: 30px;
+               line-height: 2;
+           }
+          
+           .imgs{
+               display: block;
+               width: 30px;
+               padding-left: 30px;
+               margin-top: 10%;
+           }
+            .card1{
+                padding-bottom: 20%;
+            }
+            .card2{
+                padding-bottom: 20%;
+            }
+            .card3{
+                margin-top: 20%;
+            }
+    
+    
+        }
+        @media only screen and (max-width: 768px) {
+           
+            #pricing{
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+          }
